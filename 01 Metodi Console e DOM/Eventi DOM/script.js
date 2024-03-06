@@ -1,3 +1,3 @@
-document.querySelector('.btn').addEventListener('click', function () {
+document.querySelector('.btn').addEventListener('click', () => {
     document.body.classList.toggle('theme');
 });
